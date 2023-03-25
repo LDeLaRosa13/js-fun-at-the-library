@@ -37,3 +37,27 @@ console.log(`My favorite book is ${title}!`)
 console.log(`I recently read the ${title} book`)
 }
 
+var books = [
+  'First book is the best',
+  'Second book is decent',
+  'Third book could be better',
+  'Fourth book, why are you still trying?',
+  'Fifth and final book, woo!'
+
+];
+
+console.log(books[3]);
+
+var belowTwoHundred = [
+  '12', '34', '23', '54', '98', '105', '199', '76', '87', '44', '13', '9'
+];
+console.log(belowTwoHundred[5]);
+
+var dictionary = {
+  name: 'Websters',
+  hasThesaurus: false,
+};
+
+dictionary.pageCount = 720;
+console.log(dictionary);
+
