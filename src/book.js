@@ -20,7 +20,6 @@ function buildMainCharacter(name, age, pronouns) {
 
 function saveReview (review, reviews) {
   // reviews.push(review);
-  console.log(reviews);
   if (reviews.indexOf(review) > -1) {
 
   } else {
