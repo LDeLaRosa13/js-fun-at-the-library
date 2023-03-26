@@ -22,6 +22,27 @@ function addBook(denverLibrary, book) {
 }
 
 
+  function checkoutBook(denverLibrary, book, genre) {
+    var bookFound = false;
+  for ( i = 0; i < denverLibrary.shelves[genre].length; i++) {
+    if (denverLibrary.shelves[genre][i].title === book) {
+      denverLibrary.shelves[genre].splice(i, 1);
+      bookFound = true;
+      break;
+    }
+  }
+  
+  if (bookFound) {
+    return `You have now checked out ${book} from the ${denverLibrary.name}.`;
+  } else {
+    return `Sorry, there are currently no copies of ${book} available at the ${denverLibrary.name}.`;
+  }
+  }
+
+
+  
+
+
 
 
 
