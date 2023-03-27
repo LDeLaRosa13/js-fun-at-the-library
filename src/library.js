@@ -41,14 +41,14 @@ function addBook(denverLibrary, book) {
 
 
   
-  function takeStock(library, genre) {
+  // function takeStock(library, genre)
     
-    auroraLibrary = 'Aurora Public Library';
-    var bookAmount = 0;
-    for (i = 0; i < Object.keys(library.shelves); i++) {
+  //   auroraLibrary = 'Aurora Public Library';
+  //   var bookAmount = 0;
+  //   for (i = 0; i < Object.keys(library.shelves); i++) {
  
      
-   }
+  //  }
 
 
     return `There are a total of ${bookAmount} ${genre} books at the ${auroraLibrary}.`;
