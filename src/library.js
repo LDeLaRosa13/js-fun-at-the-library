@@ -41,6 +41,18 @@ function addBook(denverLibrary, book) {
 
 
   
+  function takeStock(auroraLibrary, genre) {
+    
+    auroraLibrary = 'Aurora Public Library';
+    var bookAmount = [2];
+
+
+    return `There are a total of ${bookAmount} ${genre} books at the ${auroraLibrary}.`;
+  //  for (i = 0; i < denverLibrary.shelves.length; i++) {
+
+    // bookAmount++;
+  }
+  
 
 
 
@@ -68,5 +80,5 @@ module.exports = {
   createLibrary,
   addBook,
   checkoutBook,
-  // takeStock
+  takeStock
 };
